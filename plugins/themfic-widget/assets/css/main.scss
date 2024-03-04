@@ -1,0 +1,56 @@
+form#booking-form {
+    display: flex;
+    gap: 5px;
+    .single-items input {
+        background: #2051F5;
+        border: none;
+        padding: 5px;
+        width: 80%;
+    }
+    .input-group {
+        position: relative;
+        i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px; /* Adjust this value based on your design */
+        }
+    }
+    button {
+        width: 25%;
+        border: none;
+        padding: 0px 5px;
+        border-radius: 5px;
+    }
+
+}
+
+.slide-image {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 500px;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    a.your-button-class {
+        background: #FA6400;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+    }
+    ul.icon-list {
+        position: absolute;
+        display: flex;
+        left: -24px;
+        gap: 16px;
+        transform: rotate(90deg);
+    }
+}
