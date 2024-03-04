@@ -129,22 +129,32 @@ function themefic_task_register_required_plugins() {
 
 		array(
 			'name'      => 'Contact Form 7',
-			'slug'      => '',
+			'slug'      => 'contact-form-7',
+			'required'  => true,
+		),
+		array(
+			'name'      => 'One Click Demo Import',
+			'slug'      => 'one-click-demo-import',
 			'required'  => true,
 		),
 		array(
 			'name'      => 'Elementor',
-			'slug'      => 'buddypress',
+			'slug'      => 'elementor',
+			'required'  => true,
+		),
+		array(
+			'name'      => 'customizer export/import',
+			'slug'      => 'customizer-export-import',
+			'required'  => true,
+		),
+		array(
+			'name'      => 'Widget Importer & Exporter',
+			'slug'      => 'widget-importer-exporter',
 			'required'  => true,
 		),
 		array(
 			'name'      => 'Themefic Widget',
-			'slug'      => 'buddypress',
-			'required'  => true,
-		),
-		array(
-			'name'      => 'Contact Form 7',
-			'slug'      => 'buddypress',
+			'slug'      => '',
 			'required'  => true,
 		),
 

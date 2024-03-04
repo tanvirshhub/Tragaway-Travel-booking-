@@ -247,6 +247,11 @@ require_once get_theme_file_path() . '/inc/codestar/codestar-framework.php';
 require_once get_theme_file_path() . '/inc/codestar/samples/my-admin.php';
 
 /**
+ * One Click Demo Import for this theme.
+ */
+require_once get_theme_file_path() . '/inc/demo-import.php';
+
+/**
  * tgm-plugin-activation for this theme.
  */
 // require_once get_theme_file_path() . '/inc/tgm/admin.php';
